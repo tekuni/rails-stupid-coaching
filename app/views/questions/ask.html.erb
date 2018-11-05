@@ -1,0 +1,7 @@
+<p> test</p>
+
+  <form action="/answer" method="get">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <input type="text" name="question" placeholder="What do you want to ask?">
+    <input type="submit" value="Ask!">
+  </form>
